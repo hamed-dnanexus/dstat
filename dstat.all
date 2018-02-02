@@ -11,7 +11,7 @@
   #option -cdnm --top-cpu --top-io --top-mem --disk-util --freespace
   #delay 300
   # Note: option is tied to eth0
-  option -p --cpu-adv -y -mg --vm --vm-adv -nN lo,eth0 --net-packets --tcp -rd --disk-util --disk-wait --disk-svctm --disk-avgrq --disk-avgqu --top-cpu --top-io --top-mem --integer
+  option -p --cpu-adv -y -mg --vm --vm-adv -nN lo,eth0 --net-packets --tcp -rd --disk-util  --disk-wait --disk-svctm --disk-avgrq --disk-avgqu --top-cpu --top-io --top-mem --freespace --integer
   delay 60
 </source>
 
